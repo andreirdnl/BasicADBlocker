@@ -1,0 +1,24 @@
+body {
+    /*background-image: url("icon.jpg");*/
+    /*background-image: url("background.png");*/
+    background-image: url("background.gif");
+    background-position: center;
+    background-size: cover;
+}
+#textContainer {
+    text-align: center;
+    font-family: 'Courier New';
+    color: black;
+    padding-bottom:60px;
+}
+
+#btnContainer {
+    margin: 0 auto;
+    display: block;
+    padding-left:22px;
+    padding-top:30px;   
+}
+
+.on {
+    background-color: green;
+}

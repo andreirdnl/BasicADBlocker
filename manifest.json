@@ -1,0 +1,20 @@
+  //"content_scripts": [
+  //  {
+  //    "matches": [ "http://*/*" ],
+  //    "js": [ "test.js" ]
+  //  }
+  //]
+
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Chrome URL Blocking Extension",
+  "permissions": [ "webRequest", "webRequestBlocking", "<all_urls>" ],
+  "background": {
+    "scripts": [ "secretAgent.js" ]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
